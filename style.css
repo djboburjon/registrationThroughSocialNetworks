@@ -1,0 +1,120 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #4d515d;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: #8b8b8c;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    color: #000;
+}
+
+.wrapper {
+    width: 1050px;
+    margin: 50px auto;
+    background-image: url("img/city.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: contain;
+    border-radius: 4px;
+    box-shadow: 0 6px 18px 2px rgba(0,0,0,.3);
+}
+
+.content {
+    width: 650px;
+    border-radius: 4px 0 0 4px;
+    background-color: #fff;
+}
+
+.content-main {
+    padding: 80px 60px 0;
+}
+
+.content-top {
+    margin-bottom: 62px;
+}
+
+.page-title {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+.page-text {
+    margin: 0;
+    color: #aaa;
+    font-size: 13px;
+}
+
+.social-signup-links {
+    margin-bottom: 80px;
+}
+
+.social-signup-link {
+    display: block;
+    margin-bottom: 20px;
+    padding: 22px;
+    background-repeat: no-repeat;
+    background-position: 20px center;
+    background-size: 20px;
+    border: 1px solid #eef0f3;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.social-signup-link:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 7px 12px 1px rgba(0,0,0,.1);
+}
+
+.social-signup-link.google {
+    background-image: url("img/google-plus.svg");
+}
+
+.social-signup-link.facebook {
+    background-image: url("img/facebook.svg");
+}
+
+.social-signup-link.twitter {
+    background-image: url("img/twitter.svg");
+}
+
+.email-signup {
+    padding: 40px 60px;
+    border-top: 1px solid #eef0f3;    
+    overflow: hidden;
+}
+
+.email-signup-link {
+    float: right;
+    font-size: 11px;
+}
+
+.email-signup-text {
+    margin: 0;
+    font-size: 13px;
+    font-weight: bold;
+}
